@@ -1,0 +1,14 @@
+DNSPort 9051
+ExcludeSingleHopRelays 0
+AllowSingleHopCircuits 1
+KeepalivePeriod 60
+#NewCircuitPeriod 15
+UseEntryGuards 1
+NumEntryGuards 8
+CircuitBuildTimeout 5
+EnforceDistinctSubnets 0
+OptimisticData 1
+UseNTorHandshake 1
+ClientUseIPv6 1
+HardwareAccel 1
+ExcludeExitNodes {ru}
